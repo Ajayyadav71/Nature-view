@@ -1,0 +1,252 @@
+*{
+    padding: 0; 
+    margin: 0;
+     box-sizing: border-box;
+}
+body{
+scroll-behavior: smooth;
+overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 90vh;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('cockatoo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    position: fixed;
+    top: 0;
+
+}
+.logo{
+    font-family: sans-serif;
+    font-size: 2.5em;
+}
+.logo span{
+    color:orange;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.menu a:first-child{
+    color:blue;
+}
+.menu a:hover{
+    color:lightgreen;
+}
+.h-text{
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+.h-text h1{
+    font-family: sans-serif;
+    font-size: 2em;
+    line-height: 1.3em;
+
+}
+.h-text input{
+    width: 50%;
+    padding: 14px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-radius: 8px;
+    margin: 10px 0px;   
+}
+.h-text button{
+    width: 20%;
+    padding: 13px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 8px;
+    margin: 10px 0px;   
+}
+.portfolio-menu{
+    text-align:left;
+    margin-bottom: 10px;
+   
+}
+.portfolio-menu a{
+    font-size: 2.5em;
+    color: green;
+    text-shadow:2px 2px 4px red;
+    margin:0px 0px 10px 20px;
+    
+}
+    .portfolio-menu p{
+      text-transform: lowercase;
+      color: blue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin:10px 30px 40px 30px;
+    }
+      .portfolio-menu img{
+        opacity: 0.5;
+       
+        
+    }
+    
+    .portfolio-menu img:hover {
+      opacity: 1.0;
+    }
+
+.member{
+    width:100%;
+    padding: 20px 100px;
+    font-family: sans-serif;
+}
+.member-info{
+    text-align: center;
+}
+.member-info h1{
+    font-size: 2.5em;
+}
+.member-info h1 span{
+    color: red;
+}
+.member-card{
+    text-align: center;
+    padding-top: 50px;
+    width: 50%;
+    margin: auto;
+}
+.member-card p{
+    margin: 20px 0px;
+    line-height: 2em;
+    color:black ;
+    font-family:sans-serif;
+}
+.member-card img{
+    border-radius:90%;   
+}
+.member-card h3{
+    margin: 20px 0px;
+}
+
+.m-images{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+  
+}
+   
+.m-images img{
+    width:160px;
+    border-radius:60px;
+    text-align: center;
+    height: 200px;
+    cursor: pointer;
+    transition: .02s ease-in-out;
+    display: flex;
+
+    
+}
+.m-images img:hover{
+    transform: scale(1.1);
+    align-items: center;
+}
+footer{
+width: 100%;
+height: 100vh;
+background: #262626;
+padding:50px 100px ;
+
+}
+.newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+.newsletter >div{
+    flex-basis: 50%;
+}
+.ntext{
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 2em;
+
+}
+.newsletter h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.newsletter label{
+    position: relative;    
+}
+.newsletter input{
+    padding: 20px;
+    width: 70%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+.newsletter button{
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    background: #c74c3c;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0 6px 6px 0;
+}
+.f-contact{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.f-contact>div{
+    flex-basis: 20%;
+}
+.f-contact p{
+    line-height: 2em;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+}
+.f-contact p:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
